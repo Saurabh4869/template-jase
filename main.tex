@@ -1,0 +1,112 @@
+\documentclass[12pt,onecolumn]{JASE}
+
+%%%%% Title page here %%%%%%%%%%%
+\title{Submission Template for the Journal of Applied Science and Engineering}
+
+\author[1,*]{\normalfont{First author}}
+\author[2]{\normalfont{Second author}}
+\author[3]{\normalfont{Third author}}
+
+\affil[1]{First author address}
+\affil[2]{Second author address}
+\affil[3]{Third author address}
+\affil[*]{Corresponding author. E-mail:***Corresponding author email address***}
+
+%%%%% Abstract here %%%%%%%%%%%
+\begin{abstract}
+***Your abstract (less than 250 words)
+
+Journal Of Applied Science AND Engineering (JASE) is included in Emerging Sources Citation Index (ESCI), EI Compendex Plus (EI) and SCOPUS, accepting original research articles in all disciplines of science and engineering. Manuscripts are submitted through \href{https://mc04.manuscriptcentral.com/jase}{Online Submission \& Peer Review Service} for review with the understanding that they have not been published elsewhere. The author(s) will be responsible for proofreading the paper. All copyright ownership of the paper will belong to the Journal once it is published. Additional reprints can be purchased if ordered.
+%%for keywords
+\keywords{Keyword 1; Keyword 2; Keyword 3}
+\end{abstract}
+
+\linespread{2.0}
+\usepackage{lineno}
+
+%%%%biblatex code%%%%
+ 
+ \addbibresource{jase_refs.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\maketitle
+\linenumbers
+%%%%% your main text here %%%%%%
+ 
+\section{Example of a first section}
+
+The Journal aims to serve the needs of the research and development community and to become a well-known publishing paper of highest quality in all disciplines of science and engineering. In the near future, we hope JASE will be recognized by and included in several well-known international indexes, such as Science Citation Index (SCI).
+
+The editorial board includes experts in fields of science and engineering coming from Tamkang University and several other universities in Taiwan. In order to build up an excellent reputation for the Journal, we would also like to invite experts from international community to review papers.
+
+If you have recently undertaken research in any of the related fields and wish to share your results with the science and engineering community, please submit it through our online submission system. The Journal promises to maintain high standards and timely manner throughout the review and publication of your manuscript.
+
+
+
+\begin{figure}[bt]
+\centering
+\includegraphics[width=0.6\textwidth]{Fig 2.jpg}
+\captionsetup{justification=centering}
+\caption{This is a figure caption.}
+\label{fig:example}
+\end{figure}
+
+\begin{table}[bt]
+\captionsetup{justification=centering}
+\caption{This is a table caption.}
+\label{tab:example}
+\centering
+\begin{tabular}{l l l c r}
+\hline
+No. & caption & caption & Caption& Caption \\
+\hline
+1&1&1&1&1\\
+2&2&2&2&2\\
+3&3&3&3&3\\
+4&4&4&4&4\\
+5&5&5&5&5\\
+6&6&6&6&6\\
+\hline
+\end{tabular}
+\end{table}
+
+
+Journal article as reference \cite{Chuang2018}. Journal article as reference \cite{Ya2019}. Journal article as reference \cite{Chuang2018,Ya2019}.
+
+Book as reference \cite{Benjamin2014}.
+\section{Example of a second section}
+\subsection{Example of a first subsection title}
+
+\begin{figure}
+\begin{minipage}{0.47\textwidth}
+\includegraphics[width=\linewidth]{Fig 2.jpg}
+\subcaption{This is a subfigure}
+\end{minipage}
+\hfill
+\begin{minipage}{0.47\textwidth}
+\includegraphics[width=\linewidth]{Fig 2.jpg}
+\subcaption{This is another subfigure}
+\end{minipage}
+
+\captionsetup{justification=centering}
+\caption{This is a figure caption.}
+\label{fig:twosubs}
+\end{figure}
+
+\subsection{Example of a second subsection title}
+
+
+\section{Example of a third section}
+
+\section*{Acknowledgment}
+Any suggestions for the Journal are welcome. Please feel free to let me know.
+
+\FloatBarrier
+% Bibliography
+\baselineskip=18pt
+  \printbibliography
+
+\end{document}
